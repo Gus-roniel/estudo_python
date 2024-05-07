@@ -2,7 +2,6 @@ import random
 
 todas_palavras_secretas = ["Gustavo", "Roniel", "Silva"]
 random.shuffle(todas_palavras_secretas)
-
 palavra_do_jogo = todas_palavras_secretas[0].lower()
 letras_acertadas = ""
 numero_tentativas = 0
