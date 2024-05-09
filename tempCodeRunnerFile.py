@@ -1,1 +1,2 @@
-print(*novos_produtos, sep='\n')
+except NameError:
+    print('Nome de variável não informado')
